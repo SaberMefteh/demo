@@ -1,0 +1,255 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Header */
+  .headerContainer {
+    background-color: #222;
+    padding: 1rem 2rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerLinks a {
+    margin: 0 1rem;
+    color: #f0f0f0;
+  }
+  
+  .headerLinks .btn {
+    background-color: #e53e3e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .headerLinks .btn:hover {
+    background-color: #c53030;
+  }
+  
+  /* Landing Page */
+  .landingPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 2rem;
+  }
+  
+  .landingPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .leftSide {
+    max-width: 50%;
+  }
+  
+  .leftSide .welcome {
+    font-size: 1.2rem;
+    color: #e53e3e;
+  }
+  
+  .leftSide .slogan {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  
+  .leftSide .description {
+    margin: 1rem 0;
+    color: #a0a0a0;
+  }
+  
+  .searchBar {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .searchBar input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid #333;
+    border-right: none;
+    background-color: #333;
+    color: #f0f0f0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .searchBtn {
+    background-color: #e53e3e;
+    color: #f0f0f0;
+    padding: 0.8rem 1rem;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchBtn:hover {
+    background-color: #c53030;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Trending Games Section */
+  .trendingContainer {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .trendingContainer span {
+    color: #e53e3e;
+    font-weight: 600;
+  }
+  
+  .trendingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .trendingCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    max-width: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .cardInfo {
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .cardName p {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+  }
+  
+  .cardName h3 {
+    color: #f0f0f0;
+    font-size: 1.2rem;
+  }
+  
+  .icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Most Played Section */
+  .mostContainer {
+    padding: 2rem;
+    background-color: #222;
+  }
+  
+  .mostHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mostCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardImg img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .cardInfo .genre {
+    color: #e53e3e;
+    font-size: 0.9rem;
+  }
+  
+  .cardInfo .cardName {
+    color: #f0f0f0;
+    font-size: 1.2rem;
+  }
+  
+  /* Top Categories */
+  .categoryContainer {
+    padding: 2rem;
+    background-color: #1c1c1c;
+  }
+  
+  .categoryHeader {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .categoryCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .categoryCards .card {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 1rem;
+    overflow: hidden;
+  }
+  
+  .genre {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #e53e3e;
+    color: #f0f0f0;
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  .footerContainer {
+    background-color: #111;
+    padding: 1rem;
+    text-align: center;
+    color: #a0a0a0;
+  }
+  
+  .footerContainer a {
+    color: #e53e3e;
+  }
+  
